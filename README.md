@@ -18,7 +18,7 @@ Demo [link](https://paper-css-tawny.vercel.app/)
 #### Option 1: Link via CDN
 You can include **Paper.css** by linking directly to the CDN:
 
-`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yourusername/paper.css/paper.min.css">`
+`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/legendgokul/Paper.css/paper_css/paper.min.css">`
 
 Wrap the body content within a div with class **page_content**
 
