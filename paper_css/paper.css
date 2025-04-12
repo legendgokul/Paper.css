@@ -1,10 +1,5 @@
-/**
-Main File to which pulls in all the other CSS files.
-*/
 
-@import './paper_css/_core.css';
-
-/* global variables*/
+@import url("./_core.css");
 :root {
     --background-body: #1373A9;
     --content-background-color: #fff;
@@ -17,3 +12,6 @@ Main File to which pulls in all the other CSS files.
     --secondary-color-light: #fffbe8;
     --border: #00486B;
 }
+
+
+
