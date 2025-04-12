@@ -1,0 +1,48 @@
+a[href^='mailto\:']::before {
+    content: '📧 ';
+}
+
+a[href^='tel\:']::before {
+    content: '📞 ';
+}
+
+a[href^='sms\:']::before {
+    content: '💬 ';
+}
+
+
+strong, b {
+    font-weight: bold;
+    color: var(--header-color); /* tie bold to your header tone */
+}
+
+em, i {
+    color: var(--text-main);
+    font-style: italic;
+}
+
+a {
+    color: #4cafff; /* comic-style blue */
+    text-decoration: none;
+    border-bottom: 2px dashed #4cafff;
+    font-weight: bold;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+a:hover {
+    color: #ff6f61; /* soft comic red on hover */
+    border-bottom: 2px dashed #ff6f61;
+}
+
+mark {
+    background-color: var(--primary-color);
+    color: var(--text-main);
+    padding: 0 4px;
+    border-radius: 2px;
+}
+
+small {
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    opacity: 0.8;
+}

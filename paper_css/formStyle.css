@@ -1,0 +1,96 @@
+:root {
+    --primary-color: #FFD966; /* bright sticker yellow */
+    --secondary-color: #ffffff; /* light paper-like background */
+    --header-color: #3a4a57; /* heading text */
+    --text-main: #333; /* normal text */
+}
+
+button,
+select,
+input[type='submit'],
+input[type='reset'],
+input[type='button'],
+input[type='checkbox'],
+input[type='range'],
+input[type='radio'] {
+    cursor: pointer;
+}
+
+input,
+select {
+    display: block;
+}
+
+/* aligns checkbox and radio in same line with the label */
+[type='checkbox'],
+[type='radio'] {
+    display: initial;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0 var(--border);
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #FFD966;
+    font-family: inherit;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 0 var(--border);
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    cursor: pointer;
+    display: initial;
+}
+
+input,
+textarea,
+select {
+    color: var(--text-main);
+    background-color: #fffbe8;
+    font-family: inherit;
+    font-size: inherit;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    resize: vertical;
+    box-sizing: border-box;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,0.05);
+}
+
+    input:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0 1000px var(--secondary-color) inset !important;
+        -webkit-text-fill-color: var(--text-main) !important;
+    }
+
+textarea {
+    width: 100%;
+    min-height: 200px;
+}
+
+fieldset {
+    border: 3px dashed var(--header-color);
+    border-radius: 12px;
+    padding: 1.5em;
+    margin: 1.5em 0;
+    font-family: inherit;
+}
+
+legend {
+    padding: 0 0.5em;
+    font-weight: bold;
+    border: 2px solid #2a2a2a;
+    border-radius: 8px;
+    font-family: inherit;
+}
+
+label {
+    margin-bottom: 0.5em;
+    display: block;
+}

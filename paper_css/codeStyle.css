@@ -1,0 +1,36 @@
+pre {
+    background-color: var(--secondary-color-light);
+    padding: 1em 1.5em;
+    overflow-x: auto;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--text-main);
+    line-height: 1.6;
+    margin: 1.5em 0;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+    color: inherit;
+    font-size: 0.95em;
+}
+
+code {
+    background-color: var(--secondary-color-light);
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-family: inherit;
+    color: var(--text-main);
+}
+
+kbd {
+    background-color: var(--secondary-color-light);
+    color: var(--text-main);
+    padding: 4px 6px;
+    border: 2px solid var(--primary-color);
+    border-radius: 6px;
+    font-family: monospace;
+    font-size: 0.85em;
+}

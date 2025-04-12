@@ -1,0 +1,19 @@
+/**
+Main File to which pulls in all the other CSS files.
+*/
+
+@import './paper_css/_core.css';
+
+/* global variables*/
+:root {
+    --background-body: #1373A9;
+    --content-background-color: #fff;
+    --font-family: Verdana, Arial, Helvetica, sans-serif;
+    --header-color: #00486B; 
+    --text-main: #333; 
+    --text-secondary: #333; 
+    --primary-color: #FFD966; 
+    --secondary-color: #ffffff; 
+    --secondary-color-light: #fffbe8;
+    --border: #00486B;
+}
