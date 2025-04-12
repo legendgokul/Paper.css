@@ -1,4 +1,4 @@
-# Paper.css - A Classless CSS Framework
+# Paper.css - A Minimalist, almost Classless CSS Framework
 Paper.css is a minimal, almost class-free CSS framework that gives your plain HTML a clean, paper-like aesthetic out of the box. No complex setups. No bloated utilities. Just semantic HTML and a sprinkle of style — with one optional class, because we couldn’t resist.
 
 Demo [link](https://paper-css-tawny.vercel.app/) 
