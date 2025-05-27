@@ -1,4 +1,5 @@
 
+@import url("./_core.css");
 :root {
     --background-body: #1373A9;
     --content-background-color: #fff;
@@ -26,6 +27,8 @@
 html {
     scrollbar-color: var(--scrollbar-thumb) var(--background-body);
     scrollbar-width: thin;
+    line-height: 1.5
+    font-size: 16px; 
 }
 
 body {
