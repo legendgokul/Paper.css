@@ -20,7 +20,7 @@ body {
 }
 
 .page_content {
-    max-width: 130vh;
+    max-width: 80vw;
     margin: 2em auto;
     padding: 2em;
     font-family: var(--font-family);
